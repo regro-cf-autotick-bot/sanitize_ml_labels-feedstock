@@ -1,5 +1,5 @@
 {% set name = "sanitize_ml_labels" %}
-{% set version = "1.0.51" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sanitize_ml_labels-{{ version }}.tar.gz
-  sha256: 421924013ee58d16d03e9d42d190b685095e89f7ce738f9d597a953ff3bce0eb
+  sha256: f28be5075f8b12ba6043beac40d3df8c653db8477e22df93a4a41df784b51138
 
 build:
   noarch: python
